@@ -32,7 +32,7 @@ This guide provides steps to set up a TypeScript development environment on both
 
 4. **Execute the script**:
    ```powershell
-   .\setup_typescript_dev.ps1
+   .\ts-dev-setup.ps1
    ```
 
 5. **Follow the on-screen instructions**.
@@ -58,7 +58,7 @@ This guide provides steps to set up a TypeScript development environment on both
 
 5. **Execute the script**:
    ```bash
-   ./setup_typescript_dev.sh
+   ./ts-dev-setup.sh
    ```
 
 6. **Follow the on-screen instructions**.
