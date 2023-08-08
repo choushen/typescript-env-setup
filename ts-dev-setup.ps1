@@ -23,9 +23,10 @@ function InstallWithRetry {
 
 # Install Node.js and npm
 InstallWithRetry {
-    Invoke-WebRequest 'https://nodejs.org/dist/v14.x/node-v14.x-x64.msi' -OutFile 'node-v14.x-x64.msi'
-    Start-Process -Wait -FilePath 'node-v14.x-x64.msi'
-    Remove-Item 'node-v14.x-x64.msi' -Force
+    # Download and install Node.js (this is just a placeholder)
+    Invoke-WebRequest 'https://nodejs.org/dist/v18.17.0/node-v18.17.0-x64.msi' -OutFile 'node-v14.x-x64.msi'
+    Start-Process -Wait -FilePath 'node-v18.17.0-x64.msi'
+    Remove-Item 'node-v18.17.0-x64.msi' -Force
 }
 
 # Install TypeScript and related tools
